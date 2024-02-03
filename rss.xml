@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Applications Completed</title>
+    <link>https://github.com/yabovat/ApplicationRSSFeed/rss.xml</link>
+    <description>Number of Applications</description>
+    <item>
+      <title>40</title>
+      <link>https://github.com/yabovat/ApplicationRSSFeed/rss.xml</link>
+      <description><[INCREMENT COUNT]></description>
+    </item>
+  </channel>
+</rss>
