@@ -1,24 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xml:lang="en-US">
+<feed xmlns="http://www.w3.org/2005/Atom">
   <id>tag:github.com,2008:/s9y/Serendipity/commits/master</id>
-  <link type="text/html" rel="alternate" href="https://github.com/s9y/Serendipity/commits/master"/>
-  <link type="application/atom+xml" rel="self" href="https://github.com/s9y/Serendipity/commits/master.atom"/>
   <title>Recent Commits to Serendipity:master</title>
   <updated>2024-01-22T13:55:31Z</updated>
+  
   <entry>
     <id>tag:github.com,2008:Grit::Commit/ad77cf9432dbef23b9bc6c91797dc3bfb14f9c95</id>
-    <link type="text/html" rel="alternate" href="https://github.com/s9y/Serendipity/commit/ad77cf9432dbef23b9bc6c91797dc3bfb14f9c95"/>
-    <title>
-        [BUGFIX] Fix &quot;isEditable&quot; PHP notice in backend user management
-    </title>
+    <title>[BUGFIX] Fix "isEditable" PHP notice in backend user management</title>
     <updated>2024-01-22T13:55:31Z</updated>
-    <media:thumbnail height="30" width="30" url="https://avatars.githubusercontent.com/u/273326?s=30&amp;v=4"/>
+    <link href="https://github.com/s9y/Serendipity/commit/ad77cf9432dbef23b9bc6c91797dc3bfb14f9c95"/>
     <author>
       <name>garvinhicking</name>
       <uri>https://github.com/garvinhicking</uri>
     </author>
-    <content type="html">
-      &lt;pre style=&#39;white-space:pre-wrap;width:81ex&#39;&gt;[BUGFIX] Fix &amp;quot;isEditable&amp;quot; PHP notice in backend user management&lt;/pre&gt;
-    </content>
   </entry>
-  </feed>
+</feed>
