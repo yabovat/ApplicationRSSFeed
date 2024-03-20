@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Redirect</title>
+<script>
+  function redirectToStore() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    // Android detection
+    if (/android/i.test(userAgent)) {
+      window.location.href = "https://play.google.com/store/apps/details?id=com.newmilleniaconsulting.nmcmasjid&pcampaignid=web_share";
+    }
+
+    // iOS detection
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+      window.location.href = "https://apps.apple.com/us/app/islamic-center-of-orlando/id6456651789";
+    }
+
+    // Redirect to another page if neither Android nor iOS
+    window.location.href = "https://icorlando.org/";
+  }
+</script>
+</head>
+<body onload="redirectToStore()">
+  <p>Redirecting...</p>
+</body>
+</html>
