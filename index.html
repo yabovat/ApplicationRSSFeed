@@ -10,15 +10,15 @@
 
     // Android detection
     if (/android/i.test(userAgent)) {
-      window.location.href = "https://play.google.com/store/apps/details?id=com.newmilleniaconsulting.nmcmasjid&pcampaignid=web_share";
+      window.location.replace("https://play.google.com/store/apps/details?id=com.newmilleniaconsulting.nmcmasjid&pcampaignid=web_share");
     }
     // iOS detection
     else if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-      window.location.href = "https://apps.apple.com/us/app/islamic-center-of-orlando/id6456651789";
+      window.location.replace("https://apps.apple.com/us/app/islamic-center-of-orlando/id6456651789");
     }
     // Redirect to the website if neither Android nor iOS
     else {
-      window.location.href = "https://icorlando.org/";
+      window.location.replace("https://icorlando.org/");
     }
   }
 </script>
